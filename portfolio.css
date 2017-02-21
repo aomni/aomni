@@ -1,0 +1,120 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+	margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d8afb5;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+	display: inline-block;	
+	text-align: center;
+}
+
+li {
+    display: inline-block;
+	text-align: center;
+	position: relative;
+    
+	transition: 0.4s;	
+}
+li:hover {
+  background-color: #f5e4e6;
+  color: #d8afb5;
+  padding: 1px 3px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+	font-family: Courier New;
+	font-size: 25px;
+	margin: 0 auto;
+	
+}
+
+hr { 
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+	color: black;
+	margin-top: 10px;
+    margin-bottom: 5px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#leaves{
+	position: absolute;
+	margin-top: -11.5%;
+	margin-left: -13%;
+	border: none;
+	width: 35%;
+	height: 39%;
+	opacity: 0.5;
+	
+}
+
+#leavestwo{
+	position: absolute;
+	margin-top: -11.5%;
+	margin-left: 77%;
+	border: none;
+	width: 35%;
+	height: 39%;
+	opacity: 0.5;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+img#homeimg {
+	width: 66%;
+    height: 66%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 66px;
+	margin-bottom: 1%;
+	border: 1px inset gray;
+  }
+ 
+ #gif{
+	
+	margin-top: -660px;
+	margin-bottom: 300px;
+	margin-left: 9%;
+	border-radius: 70%;
+	border: 2px solid white;
+	height: 20%;
+	width: 40%;
+ }
+  
+.hrsec { 
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+	color: black;
+	margin-top: 0.3%;
+    margin-bottom: 0.5%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img{
+	
+	margin-left: 100px;
+}
+
+footer { 
+    display: block;
+}
